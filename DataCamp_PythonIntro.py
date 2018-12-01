@@ -821,9 +821,3 @@ plt.show()
 
 
 ########################### Section 9 Case Study: Hacker Statistics ##########################
-
-
-remain=nums
-for i in range(len(remain)):
-    if nums[len(remain)-i-1] == val:
-        del nums[len(remain)-i-1]
